@@ -20,7 +20,7 @@ This script is modular, documented, and follows your project documentation.
 #                     CONFIGURATION BLOCK
 # ============================================================
 
-JSON_PATH: str = r"C:\Users\PC\Desktop\AbrarAqeel\FYP\data\nadra_dataset_translated.json"  # Your final bilingual JSON
+JSON_PATH: str = r"./data/nadra_dataset_translated.json"  # Your final bilingual JSON
 CHROMA_DIR: str = "./chroma_db"  # Chroma storage directory
 COLLECTION_EN: str = "nadra_english"  # English collection name
 COLLECTION_UR: str = "nadra_urdu"  # Urdu collection name
@@ -233,3 +233,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
