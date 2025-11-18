@@ -17,7 +17,7 @@ Features:
 #                    CONFIGURATION BLOCK
 # ============================================================
 
-CHROMA_DIR = r"C:\Users\PC\Desktop\AbrarAqeel\FYP\chroma_db"  # Path to your Chroma DB
+CHROMA_DIR = r".\chroma_db"  # Path to your Chroma DB
 COLLECTION_EN = "nadra_english"  # English collection
 COLLECTION_UR = "nadra_urdu"  # Urdu collection
 EMBED_MODEL = "sentence-transformers/all-mpnet-base-v2"  # Same as ingestion
@@ -189,3 +189,4 @@ if st.button("Submit") and query.strip():
             st.markdown(f"**Chunk {i + 1}**")
             st.write(d)
             st.markdown("---")
+
