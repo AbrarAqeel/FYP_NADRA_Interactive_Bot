@@ -1,9 +1,9 @@
 streamlit
-chromadb
-sentence_transformers
-langchain
-langchain-community
-langchain-huggingface
-langdetect
-python-dotenv
-tqdm
+# chromadb
+# sentence_transformers
+# langchain
+# langchain-community
+# langchain-huggingface
+# langdetect
+# python-dotenv
+# tqdm
